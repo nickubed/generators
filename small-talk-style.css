@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+.generator {
+}
+.grid {
+    border: .3vw solid #1A1A1A;
+    display: grid;
+    padding: 1% 1% 1% 1%;
+    font-family: "Avenir Next";
+	color: #1A1A1A;
+    /*sets how many rows and columns divided into */
+    grid-template: 1fr 2.5fr/1fr;
+    grid-gap: 1vw 1vw;
+	font-size: 2.1vw;
+	align-items: stretch;
+	text-transform: capitalize;
+}
+
+.grid1 {
+ 	border: .3vw solid #1A1A1A;
+  	border-top: 1px;
+  	display: grid;
+  	padding: 1% 1% 1% 1%;
+  	font-family: "Avenir Next";
+	color: #1A1A1A;
+	/*sets how many rows and columns divided into */
+  	grid-template: 1fr/ 1fr;	
+  	grid-gap: 1vw 1vw;
+  	font-size: 2.1vw;	
+  	text-transform: capitalize;
+}
+
+.hdWord {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+	font-size: 2.3vw;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #1A1A1A;
+}
+
+.hdWord:active {
+	background-color: darkgrey;
+}
+
+.hdword:hover {
+	text-decoration-style: dashed;
+}
+
+.box {
+    color: #1A1A1A;
+    border: .3vw #1A1A1A solid;
+    border-radius: 1px;
+    box-shadow: none;
+}
+
+.hd {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.word {
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	margin: 1% 1% 1% 1%;
+}
+/*
+.adjDisp{
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	margin: 1% 1% 1% 1%;
+}
+*/
+hr {
+	border-top: .4vw dashed #1A1A1A;
+margin: 1%;
+}
+
+.btmButtons {
+	display:grid;
+	grid-template: 1fr / 1fr;
+	grid-gap: 1vw;
+	font-family: "Avenir Next";
+}
+
+/*Shows on mobile only at px max-width*/
+
+@media only screen and (min-width: 798px)
+{
+  .mobileShow {
+	  display: none;
+	  font-size: 2.3vw;}
+}
+/* added this custom code to the custom css in shopify */
+  .mobileShow {
+	  font-weight: bold;
+      text-align: center;
+	  font-size: 2.5vw;}
+
+/* optional code for showing the top bar 'free shipping' on mobile 
+
+@media only screen and (max-width: 798px)
+{
+	.top-bar {
+ display: block!important; 
+}
+	p.navbar-item.is-flex.is-flex-wrap {
+    display: none;
+}
+	ul.social-icons.is-flex.is-flex-wrap {
+    padding-top: 5%!important;
+}
+}
+
+*/
+
+.boxy {
+    color: #1A1A1A;
+    border: .3vw #1A1A1A solid;
+    border-radius: 1px;
+    box-shadow: none;
+	
+}
