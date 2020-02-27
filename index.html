@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Word Generator</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!--Start of the Word generator Table, Headings-->
+	<div class="generator">
+	<div class="grid">
+		<div class="box hd"><p class="hdWord" onClick="newAdj()">ADJECTIVES</p></div>
+		<div class="box hd"><p class="hdWord" onClick="newNoun()">NOUNS</p></div>
+		<div class="box hd"><p class="hdWord" onClick="newNoun()">NOUNS</p></div>
+		<div class="box hd"><p class="hdWord" onClick="newVerb()">VERBS</p></div>
+	<!-- Boxes filled by array js function words - letter class not used -->
+		<div class="box"><p class="word adjDisp"></p></div>
+		<div class="box"><p class="word nounDisp"></p></div>
+		<div class="box"><p class="word nounDisp"></p></div>
+		<div class="box"><p class="word verbDisp"></p></div>
+		<div class="box"><p class="word adjDisp"></p></div>
+		<div class="box"><p class="word nounDisp"></p></div>
+		<div class="box"><p class="word nounDisp"></p></div>
+		<div class="box"><p class="word verbDisp"></p></div>
+		<div class="box"><p class="word adjDisp"></p></div>
+		<div class="box"><p class="word nounDisp"></p></div>
+		<div class="box"><p class="word nounDisp"></p></div>
+		<div class="box"><p class="word verbDisp"></p></div>
+		<!-- <div class="boxy"><p class="word"></p></div> -->
+	</div>
+	<!-- Adverbs Row -->
+	<div class="grid1">
+		<div class="box hd"><p class ="hdWord" onClick="newAdv()">ADVERBS</p></div>
+		<div class="box"><p class="word advDisp"></p></div>
+		<div class="box"><p class="word advDisp"></p></div>
+		<div class="box"><p class="word advDisp"></p></div>
+	</div>
+		<!--Line Break -->
+		<hr>
+		<!--Generate All and Reset Buttons -->
+	<div class="btmButtons">
+		<div class="box hd"><p class="hdWord" onClick="allNew()">ALL NEW WORDS</p></div>
+		<div class="box hd"><p class="hdWord" onClick="clearText()">RESET</p></div>
+	</div>
+		<!--Link to javascript file -->
+<script src = "custom.js"></script>
+	</div>
+	
+	<div class="mobileShow" align="center"><br>
+- Rotate your device for a larger view-
+</div>
+	
+      </body>
+</html>
